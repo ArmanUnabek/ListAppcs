@@ -6,7 +6,9 @@
     android:orientation="horizontal"
     android:padding="16dp"
     android:gravity="center_vertical"
-    android:background="@android:color/white">
+    android:background="@android:color/white"
+    android:elevation="4dp"
+    android:layout_margin="8dp">
 
     <ImageView
         android:id="@+id/flagImage"
