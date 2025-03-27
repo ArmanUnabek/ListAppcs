@@ -16,7 +16,8 @@ class MainActivity : AppCompatActivity() {
         val countryList = listOf(
             Country("Vietnam", "98000000", R.drawable.flag_vietnam),
             Country("United States", "320000000", R.drawable.flag_usa),
-            Country("Russia", "142000000", R.drawable.flag_russia)
+            Country("Russia", "142000000", R.drawable.flag_russia),
+            Country("China", "1400000000", R.drawable.flag_vietnam) // Временный флаг, заменим позже
         )
 
         val adapter = RecyclerAdapter(countryList)
